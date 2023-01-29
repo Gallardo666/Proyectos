@@ -1,0 +1,247 @@
+:root{
+    --color-fondo: rgb(243, 243, 243);
+    --color-botones:rgb(255, 255, 255) ;
+    --color-botonespulsados:rgb(167, 167, 167) ;
+    --color-header: url(/Imagenes/EstrellasHeader.jpg);
+    --color-lila:rgb(140, 0, 255);
+    --color-encima:rgb(202, 202, 202);
+    --color-cartas:url(Imagenes/EstrellasCard.jpg);
+}
+
+*{
+    margin:0;
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--color-fondo);
+}
+
+
+h1{
+    font-size: 1.4rem;
+}
+h2{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 1.1rem;
+}
+a{
+    text-decoration: none;
+}
+
+
+.div1 {
+    text-align: center;
+    padding: 1rem;
+    background:var(--color-header);
+
+}
+.div1 h1{
+    color:white;
+    background:var(--color-header);
+}
+
+#descripcion{
+    padding: 0.75rem;
+    text-align: center;
+    border-bottom: inset var(--color-lila);
+    color:  white;
+    margin-bottom: 1rem;
+    background:var(--color-header);
+} 
+
+#buscador{  
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    background:var(--color-header);
+}
+#buscador .logo{
+    display: flex;
+    align-items: center;
+    background:var(--color-header);
+}
+.nombre{
+    font-size: 1.1rem;
+    margin-left: 1.3rem;
+    background:var(--color-header);
+}
+#buscador .logo img{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    background:var(--color-header);
+}
+#buscador nav{
+    background-color:var(--color-header);
+}
+#buscador a{
+    color: white;
+    padding-right: 0.95rem;
+    background:var(--color-header);
+}
+#buscador a:hover{
+    color: var(--color-encima);
+    background:var(--color-header);
+}
+
+.diseño{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 4rem;
+}
+.diseño h2{
+    margin-bottom: 2rem;
+}
+.div3 { 
+    margin: 1.5rem ;
+    width: auto;
+    height: auto;
+}
+.div3 h2{ 
+    padding-bottom:0.3rem ;
+    border-bottom: solid var(--color-lila);
+    margin:0rem 8rem 1.5rem;
+}
+.div3 p{
+    margin: 1rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 0.5rem outset var(--color-lila);
+    background: var(--color-header);
+    color: white;
+}
+.div3 img{
+    width: 13rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+
+.div4 {
+    margin: 1.5rem ;
+    width: auto;
+    height: auto;
+}
+.div4 h2{ 
+    padding-bottom:0.3rem ;
+    border-bottom: solid var(--color-lila);
+    margin:0rem 8rem 1.5rem ;
+}
+.div4 p{
+    margin: 1rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 0.5rem outset var(--color-lila);
+    background: var(--color-header);
+    color: white;
+}
+.div4 img{
+    width: 14.3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.div5 { 
+    margin: 1.5rem ;
+    width: auto;
+    height: auto;
+}
+.div5 h2{ 
+    padding-bottom:0.3rem ;
+    border-bottom: solid var(--color-lila);
+    margin:0rem 8rem 1.5rem;
+}
+.div5 p{
+    margin: 1rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 0.5rem outset var(--color-lila);
+    background: var(--color-header);
+    color: white;
+}
+.div5 img{
+    width: 13rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.card{
+    width: auto;
+    height: auto;
+    background: var(--color-header);
+    border-radius: 0.5rem;
+
+}
+.card img{
+    background-color: var(--color-header);
+    width: 300px;
+    height: 300px;
+}
+.card form{
+    background: var(--color-header);
+    border-radius: 0.5rem;
+}
+.card button{
+    font-size: 1rem;
+    background-color: var(--color-lila);
+    color:var(--color-botones) ;
+    border: none;
+    border-radius: 0.3rem;
+    width: 5rem;
+    height: 2.25rem;
+    margin-bottom: 1.5rem;
+    
+}
+.card button:hover{
+    background-color: var(--color-lila);
+    color:var(--color-botonespulsados) ;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+
+footer{
+    padding: 1.15rem;
+    background:var(--color-header) ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+footer img{
+    background-color:var(--color-header) ;
+    height: 5rem;
+    width: 5rem;
+}
+.box_footer{
+    background:var(--color-header) ;
+}
+footer .container_footer{
+    background:var(--color-header) ;
+}
+footer .logo_footer{
+    background:var(--color-header) ;
+}
+footer nav{
+    background:var(--color-header) ;
+    margin:0.5rem;
+}
+footer a{
+    background:var(--color-header) ;
+    color: white;
+    display: flex;
+    padding-top: 0.6rem;
+}
+footer a:hover{
+    background:var(--color-header) ;
+    color:var(--color-encima) ;
+
+}
+footer a i{
+    background:var(--color-header) ;
+    padding-right: 0.5rem;
+}

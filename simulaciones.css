@@ -1,0 +1,150 @@
+:root{
+    --color-fondo: rgb(243, 243, 243);
+    --color-botones:rgb(255, 255, 255) ;
+    --color-botonespulsados:rgb(167, 167, 167) ;
+    --color-header: url(/Imagenes/EstrellasHeader.jpg);
+    --color-lila:rgb(140, 0, 255);
+    --color-encima:rgb(202, 202, 202);
+    --color-cartas:rgba(137, 0, 250, 0.096);
+}
+
+*{
+    margin:0;
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--color-fondo);
+}
+
+
+h1{
+    font-size: 1.4rem;
+}
+h2{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 1.1rem;
+}
+a{
+    text-decoration: none;
+}
+
+
+.div1 {
+    text-align: center;
+    padding: 1rem;
+    background:var(--color-header);
+
+}
+.div1 h1{
+    color:white;
+    background:var(--color-header);
+}
+
+#descripcion{
+    padding: 0.75rem;
+    text-align: center;
+    border-bottom: inset var(--color-lila);
+    color:  white;
+    margin-bottom: 1rem;
+    background:var(--color-header);
+} 
+
+#buscador{  
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    background:var(--color-header);
+}
+#buscador .logo{
+    display: flex;
+    align-items: center;
+    background:var(--color-header);
+}
+.nombre{
+    font-size: 1.1rem;
+    margin-left: 1.3rem;
+    background:var(--color-header);
+}
+#buscador .logo img{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    background:var(--color-header);
+}
+#buscador nav{
+    background-color:var(--color-header);
+}
+#buscador a{
+    color: white;
+    padding-right: 0.95rem;
+    background:var(--color-header);
+}
+#buscador a:hover{
+    color: var(--color-encima);
+    background:var(--color-header);
+}
+
+.simulaciones{
+    margin: calc(100vh*0.0001);
+    text-align: center; 
+    margin-bottom: 3rem; 
+}
+
+.simulaciones h2{
+    margin: 3rem 32rem;
+    border-bottom: solid var(--color-lila);
+    padding: 0.5rem;
+}
+.simulaciones video{
+    width: 22rem;
+    height: 16rem;
+    margin: 0.5rem;
+    border: solid var(--color-cartas);
+    border-radius: .3rem;
+}
+
+
+footer{
+    padding: 1.15rem;
+    background:var(--color-header) ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+footer img{
+    background-color:var(--color-header) ;
+    height: 5rem;
+    width: 5rem;
+}
+.box_footer{
+    background:var(--color-header) ;
+}
+footer .container_footer{
+    background:var(--color-header) ;
+}
+footer .logo_footer{
+    background:var(--color-header) ;
+}
+footer nav{
+    background:var(--color-header) ;
+    margin:0.5rem;
+}
+footer a{
+    background:var(--color-header) ;
+    color: white;
+    display: flex;
+    padding-top: 0.6rem;
+}
+footer a:hover{
+    background:var(--color-header) ;
+    color:var(--color-encima) ;
+
+}
+footer a i{
+    background:var(--color-header) ;
+    padding-right: 0.5rem;
+}
